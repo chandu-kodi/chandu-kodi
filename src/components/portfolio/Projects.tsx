@@ -14,12 +14,12 @@ const projects = [
     gradient: "from-primary/20 to-accent/20",
   },
   {
-    title: "House Price Prediction",
-    subtitle: "Machine Learning Project",
+    title: " Event driven food devlivery platform",
+    subtitle: "Microservices-Based Scalable System using Java, Spring Boot, Kafka, Redis & Docker",
     year: "2023",
     description:
-      "Machine learning-based price prediction with features like square feet, bedrooms, bathrooms, and location for accurate estimation for buyers and sellers.",
-    tech: ["Python", "Machine Learning", "Data Science"],
+      "Built independent microservices (Order, User, Restaurant, Payment, Notification).Implemented event-driven workflows using Kafka producers and consumers.Used Redis caching to improve performance and reduce database load.Containerized services using Docker for easy deployment and scalability.Designed REST APIs using Spring Boot",
+    tech: ["Java", "Spring Boot","micro services", "Kafka", "Redis", "Docker"],
     gradient: "from-cyan/20 to-orange/20",
   },
 ];

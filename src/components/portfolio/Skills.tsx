@@ -2,22 +2,28 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const skillCategories = [
   {
-    title: "Languages & Frameworks",
+    title: "Front-End ",
     color: "primary",
     skills: [
-      { name: "Java", level: 80 },
-      { name: "JavaScript", level: 90 },
+      // { name: "Java", level: 80 },
       { name: "React JS", level: 90 },
       { name: "React Native", level: 70 },
       { name: "Next.js", level: 80 },
-      { name: "Node.js", level: 85 },
-      { name: "Express.js", level: 80 },
+      { name: "JavaScript", level: 90 },
+
+      // { name: "Node.js", level: 85 },
+      // { name: "Express.js", level: 80 },
     ],
   },
   {
-    title: "Databases",
+    title: "Backend",
     color: "cyan",
-    skills: [{ name: "PostgreSQL", level: 85 }],
+    skills: [ 
+      { name: "Java", level: 80 },
+      { name: "Node.js", level: 85 },
+      { name: "Express.js", level: 80 },
+      // { name: "JavaScript", level: 90 },
+      { name: "PostgreSQL", level: 85 }],
   },
   {
     title: "Concepts",

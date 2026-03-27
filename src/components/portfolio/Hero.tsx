@@ -18,7 +18,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <span className="gradient-text">Kodi Chandu</span>
+          <span className="gradient-text">Chandu Kodi</span>
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>

@@ -1,5 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { User, Briefcase, GraduationCap } from "lucide-react";
+import { User, Briefcase, GraduationCap, Linkedin, Code2, Mail } from "lucide-react";
+import chandu from "@/assets/chandu.jpeg";
 
 export default function About() {
   const { ref, isVisible } = useScrollAnimation();
@@ -23,18 +24,45 @@ export default function About() {
             }`}
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80">
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/30 via-accent/20 to-cyan/30 animate-float" />
-              <div className="absolute inset-2 glass rounded-2xl flex items-center justify-center">
-                <div className="text-center space-y-3">
-                  <User size={48} className="mx-auto text-primary" />
-                  <p className="text-sm text-muted-foreground font-medium">Full Stack Developer</p>
-                  <div className="flex justify-center gap-4 text-muted-foreground">
-                    <Briefcase size={18} />
-                    <GraduationCap size={18} />
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/30 via-accent/20 to-cyan/30 animate-float" />
+  
+  <div className="absolute inset-2 glass rounded-2xl flex items-center justify-center">
+    <div className="text-center space-y-3">
+      
+      {/* Profile Image replacing User icon */}
+      <img
+        src={chandu}
+        alt="Chandu Kodi"
+        className="w-24 h-24 mx-auto rounded-full object-cover 
+                   border-3 border-primary/40 
+                   shadow-lg 
+                   transition-transform duration-300 
+                   hover:scale-105"
+      />
+
+      <p className="text-sm text-muted-foreground font-medium">
+        Full Stack Developer
+      </p>
+      
+
+      <div className="flex justify-center gap-4 text-muted-foreground">
+        <a href="https://www.linkedin.com/in/chandu-kodi-/" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-primary transition-colors">
+            <Linkedin size={18} />
+          </a>
+          <a href="https://leetcode.com/u/chandukodi/" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-orange transition-colors">
+            <Code2 size={18} />
+          </a>
+          <a href="mailto:chandukodi02@gmail.com" className="p-2 hover:text-accent transition-colors">
+            <Mail size={18} />
+          </a>
+        {/* <Briefcase size={18} />
+        <GraduationCap size={18} /> */}
+      </div>
+
+    </div>
+  </div>
+</div>
+
           </div>
 
           {/* Text side */}
@@ -52,7 +80,7 @@ export default function About() {
               algorithms, and software engineering principles, I deliver clean, maintainable code that scales.
             </p>
             <div className="flex flex-wrap gap-3 pt-2">
-              {["React", "Node.js", "PostgreSQL", "Next.js", "TypeScript"].map((t) => (
+              {["Java", "React", "Node.js", "PostgreSQL", "Next.js", "TypeScript"].map((t) => (
                 <span key={t} className="px-3 py-1 glass rounded-full text-xs font-medium text-primary">
                   {t}
                 </span>

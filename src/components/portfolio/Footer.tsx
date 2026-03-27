@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-border/50 py-8">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-sm text-muted-foreground flex items-center gap-1">
-          © 2025 Kodi Chandu. Built with <Heart size={14} className="text-destructive" /> and React.
+            Developed by   @2025 chandu kodi. 
         </p>
         <div className="flex gap-3">
           <a href="https://www.linkedin.com/in/chandu-kodi-/" target="_blank" rel="noopener noreferrer" className="p-2 hover:text-primary transition-colors">

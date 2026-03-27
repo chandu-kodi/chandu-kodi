@@ -28,7 +28,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="text-xl font-bold gradient-text">
-          KC
+          CK
         </button>
 
         {/* Desktop */}
